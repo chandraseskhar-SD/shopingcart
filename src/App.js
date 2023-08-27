@@ -17,9 +17,9 @@ const App = () => {
         isPresent = true;
     })
     if (isPresent) {
-      setWarning(true);
+      setWarning(false);
       setTimeout(() => {
-        setWarning(false);
+        setWarning(true);
       }, 2000);
       return;
     }
